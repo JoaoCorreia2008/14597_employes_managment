@@ -7915,27 +7915,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zabir\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\14597_employes_managment\\14597_employes_managment\\14597_employes_managment\\14597_employes_managment.csproj",
+      "projectUniqueName": "/workspaces/14597_employes_managment/14597_employes_managment/14597_employes_managment.csproj",
       "projectName": "14597_employes_managment",
-      "projectPath": "C:\\14597_employes_managment\\14597_employes_managment\\14597_employes_managment\\14597_employes_managment.csproj",
-      "packagesPath": "C:\\Users\\zabir\\.nuget\\packages\\",
-      "outputPath": "C:\\14597_employes_managment\\14597_employes_managment\\14597_employes_managment\\obj\\",
+      "projectPath": "/workspaces/14597_employes_managment/14597_employes_managment/14597_employes_managment.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/14597_employes_managment/14597_employes_managment/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7948,11 +7945,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8005,7 +7997,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet/8.0.101/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
