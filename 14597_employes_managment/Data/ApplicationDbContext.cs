@@ -12,5 +12,6 @@ namespace _14597_employes_managment.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Instruments> Instruments { get; set; }
     }
 }
