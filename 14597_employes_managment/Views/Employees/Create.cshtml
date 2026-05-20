@@ -93,12 +93,12 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label asp-for="Function" class="control-label"></label>
-                        <dropdown asp-for="Function" asp-items="Html.GetEnumSelectList<Functions>()" class="form-control">
+                        <Select asp-for="Function" class="form-control">
                             <option value="">Select Function</option>
                             <option value="Administration">Administration</option>
                             <option value="Engineer">Engineer</option>
                             <option value="Worker">Worker</option>
-                        </dropdown>
+                        </Select>
                         <span asp-validation-for="Function" class="text-danger"></span>
                     </div>
                 </div>
